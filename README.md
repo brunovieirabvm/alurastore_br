@@ -75,7 +75,7 @@ pip install pandas matplotlib seaborn
 - Abra o arquivo `.ipynb` em Jupyter Notebook ou Google Colab
 - Ou rode o script `.py` no terminal:
   ```bash
-  python analise_lojas.py
+  alurastore_br.py
   ```
 
 ---
@@ -94,6 +94,23 @@ pip install pandas matplotlib seaborn
 - Se algum arquivo `.csv` não for carregado, verifique o link ou o caminho local.
 - Verifique se todas as bibliotecas estão instaladas (`pandas`, `seaborn`, `matplotlib`).
 - Para emojis nos gráficos, pode haver **avisos de fonte**, mas não afetam os resultados.
+
+---
+
+🌍 Análise Geográfica
+
+Como atividade complementar, este projeto também explorou os dados de **coordenadas geográficas** (latitude e longitude) para entender **onde as vendas estão concentradas**.
+
+Foram criados:
+- 📌 **Gráfico de Dispersão:** mostrando os pontos de vendas de cada loja em um plano cartesiano de coordenadas.
+- 🔥 **Mapa de Calor (Heatmap):** destacando áreas com maior densidade de pedidos, facilitando a identificação de regiões estratégicas.
+
+**Objetivo:**  
+Verificar **padrões de concentração geográfica**, analisar como a localização influencia o **faturamento**, o **custo de frete** e a **satisfação dos clientes**, além de mostrar possíveis oportunidades para otimizar a logística de cada loja.
+
+Essa análise reforçou a recomendação final de **venda da Loja 3**, que se mostrou **bem distribuída geograficamente**, com alcance equilibrado e bons resultados logísticos.
+
+Os gráficos e mapas estão salvos na pasta `/graficos` e também podem ser gerados novamente executando os notebooks do projeto.
 
 ---
 
